@@ -1,0 +1,28 @@
+	html{
+		@extend %fullPlace;
+	}
+	body{
+		@extend %fullPlace;
+		font-family:ReithSans,Arial,Helvetica,freesans,sans-serif;
+		background-color:black;			
+	}
+	*{
+		box-sizing:border-box;
+	}
+	img{
+		vertical-align: middle;
+	}
+	a{
+		text-decoration:none;
+	}
+	p{
+		margin:0px;
+	}
+	:after, :before {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.clear {
+		clear: both;
+	}
